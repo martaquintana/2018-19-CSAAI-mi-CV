@@ -2,6 +2,7 @@
 <html>
   <head>
     <style media="screen">
+      body {margin: 40px}
       h1 {
         font-style:courier;font-size:70px; color:white; text-align: center;background-color:powderblue;
       }
@@ -19,7 +20,19 @@
       p.telf, a {
         font-size:20px; text-align: center;
       }
-      img.patito{}
+      .patito{
+        background-color:  #ffd175;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin: auto;
+        display: block;
+        width: 40%;
+        text-align: center;
+      }
+      div.patito{align:center;}
+      img{
+        display:block;
+        margin:auto;
+      }
     </style>
 
     <meta charset="utf-8">
@@ -54,19 +67,32 @@
      <div class="Datos">
        <h2> Experiencia profesional </h2>
        <ol>
-         <li></li>
-         <li></li>
-         <li></li>
+         <li>Trabajo 1...</li>
+         <li>Trabajo 2...</li>
+         <li>Trabajo 3...</li>
        </ol>
+     </div>
+      <div class="Datos">
+       <h2> Idiomas </h2>
+       <p>Español/Castellano : Nativo</p>
+       <p>Inglés: B2</p>
      </div>
      <div class="Datos">
        <h2> Habilidades </h2>
-       <p> &#x270E; He manejado diferentes lenguajes de programación: Python, HTML, JavaScript, Picky </p>
-       <p>&#x270E; También me gusta dibujar</p>
-       <p>&#x270E; Me gusta la fotografía</p>
-       <p> &#x270E;Esta es mi cuenta de fotografía en instagram:  makinmyphotos</p>
+       <p> &#x270E; He manejado diferentes lenguajes de programación: Python, HTML, JavaScript, Matlab, Picky.</p>
+       <p>&#x270E; Mis hobbies son dibujar y la fotografía </p>
+       <p> &#x270E;Mi instagram de fotografía: <button role="link" onclick="window.location='https://www.instagram.com/makinmyphotos/'"> makinmyphotos</button>
+      </p>
      </div>
-     <img id ="patito" src="patito.jpg" alt="Little Duck" width="400" height="300">
-     <figcaption> Patito en Hyde Park, Londres. 2017
+      <div class="Datos">
+        <h2> Otros datos de interés </h2>
+        <p>Carnet de conducir B</p>
+
+      </div>
+     <div class="patito">
+       <img src="patito.jpg" alt="Little Duck" width="400" height="300">
+       <div class="info">
+         <p>Patito en Hyde Park, Londres. 2017</p></div>
+       </div>
   </body>
 </html>
