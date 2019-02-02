@@ -2,21 +2,20 @@
 <html>
   <head>
     <style media="screen">
-      body {margin: 40px}
+      body {margin: 40px;}
       h1 {
         font-style:courier;font-size:70px; color:white; text-align: center;background-color:powderblue;
       }
-      p.info {text-align: center;}
-      div.Datos,{
-        padding: 20px;
-        }
-      li{
+      p.info, p.otros {text-align: center;}
+      li, p.Habilidades{
         font-style: italic;
+        margin-left: 300px;
       }
       div.intro ,h2 {
       text-align: center;background-color:powderblue;
       }
-      ul {list-style-type:circle; }
+      div.Datos, ul {list-style-position: inside;
+        list-style-type:circle;}
       p.telf, a {
         font-size:20px; text-align: center;
       }
@@ -47,10 +46,11 @@
        Actualmente: estudiante de ISAM<p>
      </div>
      <div class="links">
-       <p class="info"> INFORMACIÓN DE CONTACTO:</p>
+       <address>
        <span> <p class = "telf"> &#9990; XXXXXXXXX &#x2709; m.quintanapo@alumnos.urjc.es <img src="github.logo.png" alt="GitHub Logo" width="15" height="15"><a class="a" href="https://github.com/martaquintana"> Mi GitHub </a>
         </p>
        </span>
+     </address>
      </div>
      <div class="Datos">
        <h2> Estudios </h2>
@@ -75,19 +75,19 @@
      </div>
       <div class="Datos">
        <h2> Idiomas </h2>
-       <p>Español/Castellano : Nativo</p>
-       <p>Inglés: B2</p>
+       <p class="otros">Español/Castellano : Nativo</p>
+       <p class="otros">Inglés: B2</p>
      </div>
      <div class="Datos">
        <h2> Habilidades </h2>
-       <p> &#x270E; He manejado diferentes lenguajes de programación: Python, HTML, JavaScript, Matlab, Picky.</p>
-       <p>&#x270E; Mis hobbies son dibujar y la fotografía </p>
-       <p> &#x270E;Mi instagram de fotografía: <button role="link" onclick="window.location='https://www.instagram.com/makinmyphotos/'"> makinmyphotos</button>
+       <p class="Habilidades"> &#x270E; He manejado diferentes lenguajes de programación: Python, HTML, JavaScript, Matlab, Picky.</p>
+       <p class="Habilidades">&#x270E; Mis hobbies son dibujar y la fotografía </p>
+       <p class="Habilidades"> &#x270E;Mi instagram de fotografía: <button role="link" onclick="window.location='https://www.instagram.com/makinmyphotos/'"> makinmyphotos</button>
       </p>
      </div>
       <div class="Datos">
         <h2> Otros datos de interés </h2>
-        <p>Carnet de conducir B</p>
+        <p class="otros">Carnet de conducir B</p>
 
       </div>
      <div class="patito">
