@@ -1,0 +1,44 @@
+  body {
+    margin: 40px;
+    background-repeat:repeat-y;
+    background-position: 10px;
+    background-size:contain;
+  }
+  h1 {
+    font-style:courier;font-size:70px; color:white; margin-top: 10px; background-color:powderblue; padding: 10px
+  }
+  p.info, p.otros{
+    text-align: center;
+  }
+  li, p.Habilidades{
+    font-style: italic;
+    margin-left: 300px;
+  }
+  div.intro ,h2 {
+    text-align: center;background-color:powderblue;
+  }
+  div.Datos, ul {
+    list-style-position: inside;
+    list-style-type:circle;
+  }
+  p.telf, a {
+    font-size:20px; text-align: center;
+  }
+  .patito{
+    background-color: powderblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;
+    display: block;
+    width: 40%;
+    text-align: center;
+  }
+  div.patito, div.infofoto {
+    align:center;
+  }
+  div.infofoto {
+    color: white;
+  }
+  img.pato{
+    display:block;
+    margin:auto;
+  }
