@@ -1,8 +1,10 @@
   body {
-    margin: 40px;
     background-repeat:repeat-y;
-    background-position: 10px;
+    background-position:top;
     background-size:contain;
+  }
+  hr {
+    border-style: double;
   }
   h1 {
     font-style:courier;font-size:70px; color:white; margin-top: 10px; background-color:powderblue; padding: 10px
@@ -12,12 +14,19 @@
   }
   li, p.Habilidades{
     font-style: italic;
-    margin-left: 300px;
+    list-style-position: inside;
+    margin-left: 100px;
   }
   div.intro ,h2 {
     text-align: center;background-color:powderblue;
   }
-  div.Datos, ul {
+  div.Datos{
+    background-color:rgba(240,248,255,0.5);
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 10px;
+  }
+  ul {
     list-style-position: inside;
     list-style-type:circle;
   }
