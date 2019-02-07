@@ -1,27 +1,45 @@
   body {
+    background-image: url("nubes_rosas.png");
     background-repeat:repeat-y;
     background-position:top;
     background-size:contain;
+    margin: 15px;
+
   }
   hr {
+    margin-top: 0px;
+    margin-bottom: 10px;
     border-style: double;
+    color:white;
   }
   h1 {
-    font-style:courier;font-size:70px; color:white; margin-top: 10px; background-color:powderblue; padding: 10px
+    font-style:courier;
+    font-size:70px;
+    color:white;
+    margin-top: 10px;
+    background-color:powderblue;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
-  p.info, p.otros{
+  .info, .otros{
     text-align: center;
   }
-  li, p.Habilidades{
+  #datos{
+    padding: 10px;
+    margin-top: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  li, .Habilidades{
     font-style: italic;
     list-style-position: inside;
     margin-left: 100px;
   }
-  div.intro ,h2 {
+  h2, #datos {
     text-align: center;background-color:powderblue;
   }
-  div.Datos{
+  .Datos{
     background-color:rgba(240,248,255,0.5);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-left: 200px;
     margin-right: 200px;
     margin-bottom: 10px;
@@ -30,24 +48,21 @@
     list-style-position: inside;
     list-style-type:circle;
   }
-  p.telf, a {
+  .telf, a {
     font-size:20px; text-align: center;
   }
-  .patito{
-    background-color: powderblue;
+  .infofoto{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: auto;
-    display: block;
-    width: 40%;
+    text-align: center;
+    background-color: powderblue;
+    width:50%;
+    margin-left: 25%;
+    align-items:center;
+  }
+  .infofoto {
+    color: white;
     text-align: center;
   }
-  div.patito, div.infofoto {
-    align:center;
-  }
-  div.infofoto {
-    color: white;
-  }
-  img.pato{
-    display:block;
-    margin:auto;
-  }
+   img{
+     border-radius: 8px;
+   }
